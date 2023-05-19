@@ -8,3 +8,89 @@
 body{
     background-image: url(./images/fondo.png);
 }
+header{
+    background: blue;
+    height: 80px; 
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.marcador{
+    border: 3px solid #fff;
+    margin:  50px auto;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px ;
+    position: relative;
+}
+.badge{
+    background: blue;
+    font-size: 15px ;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3px 2px ;
+}
+.user-label{
+    position: absolute;
+    top: auto;
+    left: -25px;
+    height: 30px;
+    width: 50px;
+}
+.comp-label{
+    position: absolute;
+    top: auto;
+    right: -25px;
+    height: 30px;
+    width: 50px;
+}
+#user-score, #comp-score {
+    padding: 5px;
+    font-size: 30px;
+}
+.result{
+    font-size: 40px;
+    color: #fff;
+}
+.result>p{
+    text-align: center;
+    font-weight: 600;
+}
+.opciones{
+    text-align: center;
+    margin: 50px 0;
+}
+.choice{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: blue;
+    padding: 15px;
+    margin: 20px;
+    transition: all 0.3 ease;
+}
+.choice:hover{
+    background: rgb(79, 181, 228);
+    cursor: pointer;
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+#accion{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px ;
+    color: #fff;
+    margin-bottom: 50px;
+}
